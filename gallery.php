@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yarsha Van F.C Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js" defer></script>
+</head>
+<body>
+
+    <?php include('header.php'); ?>
+
+    <!-- Navigation Menu -->
+    <ul class="menu">
+        <li><a href="index.php">Home</a></li>
+    </ul>
+
+    <div class="full-img" id="fullImgBox">
+        <img src="gallery/yarsha_img1.jpeg" id="fullImg">
+        <span>X</span>
+    </div>
+
+    <div class="img-gallery">
+        <img src="gallery/yarsha_img2.jpeg">
+        <img src="gallery/yarsha_img3.jpeg">
+        <img src="gallery/yarsha_img4.jpeg">
+        <img src="gallery/yarsha_img6.jpeg">
+        <img src="gallery/yarsha_img7.jpeg">
+        <img src="gallery/yarsha_img8.jpeg">
+        <img src="gallery/yarsha_img9.jpeg">
+        <img src="gallery/yarsha_img10.jpeg">
+        <img src="gallery/yarsha_img11.jpeg">
+        <img src="gallery/yarsha_img12.jpeg">
+        <img src="gallery/yarsha_img13.jpeg">
+        <img src="gallery/yarsha_img14.jpeg">
+        <img src="gallery/yarsha_img15.jpeg">
+        <img src="gallery/yarsha_img16.jpeg">
+        <img src="gallery/yarsha_img17.jpeg">
+        <img src="gallery/yarsha_img18.jpeg">
+        <img src="gallery/yarsha_img19.jpeg">
+        <img src="gallery/yarsha_img20.jpeg">
+        <img src="gallery/yarsha_img21.jpeg">
+        <img src="gallery/yarsha_img23.jpeg">
+        <img src="gallery/yarsha_img24.jpeg">
+        <img src="gallery/yarsha_img25.jpeg">
+        <img src="gallery/yarsha_img26.jpeg">
+        <img src="gallery/yarsha_img27.jpeg">
+        
+        <!-- Add other image and video tags as needed -->
+    </div>
+
+    <?php include('footer.php'); ?>
+</body>
+</html>
